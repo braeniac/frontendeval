@@ -66,9 +66,8 @@ function Countdown({ hours, setHours, minutes, setMinutes, seconds, setSeconds, 
             <p>Reset</p>
         </button>
 
-
         <NotificationContainer />
-        
+    
     </div>
   )
 }
