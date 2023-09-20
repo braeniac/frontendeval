@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function ModalOverlay() {
+  
   const [show, setShow] = useState(false);
   const [accept, setAccept] = useState(false);
 
