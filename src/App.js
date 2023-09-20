@@ -1,16 +1,21 @@
 import './App.css';
 
-import FaqComponent from '../src/FAQcomponent/FaqComponent'; 
-import CountdownTimer from './CountdownTimer/CountdownTimer';
-import ModalOverlay from './ModalOverlay/ModalOverlay'; 
-import Calculator from './MortgageCalculator/Calculator';
+import FaqComponent from './easy/FAQcomponent/FaqComponent'; 
+import CountdownTimer from './easy/CountdownTimer/CountdownTimer'; 
+import ModalOverlay from './easy/ModalOverlay/ModalOverlay'
+import Calculator from './easy/MortgageCalculator/Calculator'; 
+import MemoryGame from './medium/MemoryGame/MemoryGame'; 
 
 function App() {
   return (
+    //Easy
       // <FaqComponent />
       // <CountdownTimer /> 
       // <ModalOverlay /> 
-      <Calculator />
+     
+    //Medium 
+      <MemoryGame />
+    //Hard
   )
 }
 
